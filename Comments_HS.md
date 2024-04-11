@@ -2,8 +2,8 @@
 
 I used the following commands to install the requirements:
 ```bash
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ conda create --name quadriga-text python=3.12
+$ conda activate quadriga-text
 $ pip install -r requirements.txt
 ```
 
