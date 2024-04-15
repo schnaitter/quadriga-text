@@ -2,9 +2,13 @@
 
 I used the following commands to install the requirements:
 ```bash
-$ conda create --name quadriga-text python=3.12
-$ conda activate quadriga-text
+$ conda create -p conda python=3.12
+$ conda activate ./conda
 $ pip install -r requirements.txt
+```
+Currently `matplotlib` is not installed via `requirements.txt`, therfore we need to run:
+```bash
+$ pip install matplotlib
 ```
 
 ## file `data-input/FS_1_MVP_Data_Input_Homogenisation.ipynb`
